@@ -13,10 +13,6 @@ class Child extends Component {
     console.log(this)
     this.props.remove(this.props.index)
   }
-  // HandlerClick() {
-  //   console.log(this) // undefined
-  // }
-
 }
  
 export default Child;
